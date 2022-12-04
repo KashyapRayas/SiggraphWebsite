@@ -1,0 +1,84 @@
+
+.team-row {
+    padding-top: 30px;
+}
+
+.team-header {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #1D2130;
+}
+
+.sub-head {
+    font-weight: 400;
+}
+
+.fa-cog {
+    color: #434242;
+}
+
+#members {
+    padding-top: 5%;
+}
+
+.img-area {
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.img-text {
+    padding: 0px;
+    /* padding-top: 20px; */
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-text .name {
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #1D2130;
+}
+
+.img-text .role,
+.sub-head {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #1D2130;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+}
+
+.img-text .role {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .img-area img {
+        display: inline-block;
+    }
+}
+
+.social {
+    text-align: center;
+}
